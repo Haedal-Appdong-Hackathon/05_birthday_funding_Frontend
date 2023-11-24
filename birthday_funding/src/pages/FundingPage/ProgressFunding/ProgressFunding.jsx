@@ -3,7 +3,7 @@ import Header from '../../../Layout/Header';
 import './ProgressFunding.scss'
 import { request } from "../../../utils/api";
 
-const user = {
+const user1 = {
 	"id" : 1,
 	"name" : "홍길동",
 	"birthday" : "2000-01-01",
@@ -39,6 +39,7 @@ const funding = {
 	]
 
 }
+
 //const funding = await request(`/funding/${fid}`, {methods: 'GET'})
 
 const ProgressFunding = () => {
