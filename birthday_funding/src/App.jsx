@@ -5,6 +5,7 @@ import IntroPage from './pages/IntroPage/IntroPage';
 import FundingPage from './pages/FundingPage/FundingPage';
 import ProgressFunding from './pages/FundingPage/ProgressFunding/ProgressFunding';
 import MyPage from './pages/MyPage/MyPage';
+import MygiftPage from './pages/MyPage/MygiftPage/MygiftPage';
 import LoginPage from './pages/LoginPage/LoginPage';
 import RegisterPage from './pages/LoginPage/RegisterPage/RegisterPage';
 import StorePage from './pages/StorePage/StorePage';
@@ -23,6 +24,7 @@ export default function App() {
                     <Route path="/funding" element={<FundingPage />} />
                     <Route path="/fundingdetail" element={<ProgressFunding />} />
                     <Route path="/mypage" element={<MyPage />} />
+                    <Route path="/mypage/gift" element={<MygiftPage />} />
                     <Route path="/navigate" element={<NavigatePage />} />
                     <Route path="/Friends" element={<FriendPage />} />
                     <Route path="/store" element={<StorePage />} />
