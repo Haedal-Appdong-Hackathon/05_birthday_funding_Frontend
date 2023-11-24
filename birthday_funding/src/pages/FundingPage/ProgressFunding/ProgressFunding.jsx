@@ -46,6 +46,8 @@ const ProgressFunding = () => {
                 <div className='funding-user-name'>{funding.writer.nickname}의 펀딩</div>
                 <div className='funding-content'>{funding.content}</div>
             </div>
+            <button className='pink-button margin'>펀딩 끝내기</button>
+            <button className='pink-button'>펀딩 정산하기</button>
         </>
     );
 };
