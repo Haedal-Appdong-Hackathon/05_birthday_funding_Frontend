@@ -1,0 +1,41 @@
+@import '../../styles/color.scss';
+@import '../../styles/utils.scss';
+
+.funding-container {
+    h2 {
+        font-size: 1.2rem;
+        font-weight: bold;
+
+        padding-right: 13rem;
+        margin-top: 2rem;
+        margin-bottom: 50px;
+    }
+}
+
+.previous-funding {
+    h2 {
+        font-size: 1.2rem;
+        font-weight: bold;
+
+        padding-right: 13rem;
+        margin-bottom: 2.5rem;
+        margin-top: 1.2rem;
+    }
+    .progress-container {
+        margin-bottom: 3rem;
+        color: $color-gray;
+    }
+
+    #before-funding {
+        margin-right: 2rem;
+    }
+    button {
+        padding-top: 2rem;
+        width: 80%;
+        height: 4rem;
+        background-color: $color-white;
+        margin-bottom: 2rem;
+    }
+
+    height: 80vh;
+}
