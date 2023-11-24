@@ -1,0 +1,48 @@
+@import '../../styles/color.scss';
+@import '../../styles/utils.scss';
+.friend-title {
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.ul-funding-friend {
+    margin-left: 20px;
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(8, 155px);
+    .funding-friend-container {
+        width: 150px;
+        border-radius: 30px;
+        background-color: white;
+        border: 1px solid $color-gray-01;
+        .friend-img {
+            width: 140px;
+            height: 140px;
+            border-radius: 140px;
+        }
+        .friend-name {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.ul-friend {
+    margin-left: 20px;
+    margin-top: 55px;
+    .friend-container {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid $color-gray-01;
+        .friend-img {
+            width: 90px;
+            height: 90px;
+            border-radius: 90px;
+        }
+        .friend-name {}
+        &:last-child {
+            border: none;
+        }
+    }
+}
