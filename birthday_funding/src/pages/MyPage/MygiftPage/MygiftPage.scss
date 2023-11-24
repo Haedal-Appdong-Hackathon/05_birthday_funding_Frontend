@@ -1,0 +1,7 @@
+@import '../../../styles/color.scss';
+@import '../../../styles/utils.scss';
+.gift-container {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}

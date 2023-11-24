@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../../../Layout/Header';
 import './ProgressFunding.scss'
+import { request } from "../../../utils/api";
 
 const user = {
 	"id" : 1,
@@ -38,6 +39,7 @@ const funding = {
 	]
 
 }
+//const funding = await request(`/funding/${fid}`, {methods: 'GET'})
 
 const ProgressFunding = () => {
     const isFriend = (user.id === funding.writer.id) ? true : false;

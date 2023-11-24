@@ -2,8 +2,9 @@ import React from 'react';
 import Header from '../../Layout/Header';
 import Linkpage from '../../components/linkPage';
 import './MyPage.scss';
+import { request } from "../../utils/api";
 
-const user = {
+const user1 = {
 	"id" : 1,
 	"name" : "홍길동",
 	"birthday" : "2000-01-01",
@@ -11,6 +12,7 @@ const user = {
 	"point" : 150000,
 	"userImageUrl" : "../../public/images/intro/gift-box.png",
 }
+const user = await request(`/user`, {methods: 'GET'})
 
 const MyPage = () => {
     return (

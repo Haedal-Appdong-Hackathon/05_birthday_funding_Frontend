@@ -89,6 +89,7 @@ const StorePage = () => {
                         name={product.name} 
                         price={product.price}
                         imageUrl={product.imageUrl}
+                        dateOfUse={1}
                         isButton={false}/>
                 )}
             </ul>
