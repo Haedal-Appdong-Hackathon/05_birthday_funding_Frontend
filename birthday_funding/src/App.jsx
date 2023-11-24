@@ -8,6 +8,8 @@ import LoginPage from './pages/LoginPage/LoginPage';
 import RegisterPage from './pages/LoginPage/RegisterPage/RegisterPage';
 import StorePage from './pages/StorePage/StorePage';
 import NavigatePage from './pages/NavigatePage/NavigatePage';
+import ExchangePage from './pages/ExchangePage/ExchangePage';
+import FriendsPage from './pages/FriendsPage/FriendsPage';
 
 export default function App() {
     return (
@@ -20,7 +22,9 @@ export default function App() {
                     <Route path="/funding" element={<FundingPage />} />
                     <Route path="/mypage" element={<MyPage />} />
                     <Route path="/navigate" element={<NavigatePage />} />
+                    <Route path="/Friends" element={<FriendsPage />} />
                     <Route path="/store" element={<StorePage />} />
+                    <Route path="/exchange" element={<ExchangePage />} />
                     <Route path="*" element={<Error />} />
                 </Routes>
             </BrowserRouter>
