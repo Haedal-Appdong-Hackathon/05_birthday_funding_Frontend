@@ -1,0 +1,34 @@
+@import '../../../styles/color.scss';
+@import '../../../styles/utils.scss';
+
+.makefunding-container {
+    h2 {
+        font-size: 1.2rem;
+        font-weight: bold;
+
+        padding-right: 13rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .name-item {
+        input {
+            width: 80%;
+            height: 4rem;
+        }
+    }
+
+    .contents-item {
+        input {
+            width: 80%;
+            height: 4rem;
+        }
+    }
+
+    .gift-item {
+        input {
+            width: 80%;
+            height: 4rem;
+        }
+    }
+}
