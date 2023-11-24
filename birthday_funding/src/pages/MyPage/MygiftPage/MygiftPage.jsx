@@ -4,7 +4,6 @@ import './MygiftPage.scss';
 import Product from '../../../components/Product';
 import { request } from "../../../utils/api";
 
-
 const gift = await request(`/user/gifticon?page=0`, {methods: 'GET'})
 
 const MyPage = () => {
