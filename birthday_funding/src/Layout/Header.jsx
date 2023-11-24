@@ -1,15 +1,18 @@
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Header.scss';
 
-const Header = () => {
+const Header = (props) => {
+    const {msg, isMain} = props
+    console.log(msg, isMain)
     return (
         <>
             <ul className="Header-container">
                 <li>
-                    <FontAwesomeIcon className="Nav-button-item" icon={faBars} />
+                    {isMain && <FontAwesomeIcon className="Nav-button-item" icon={faBars} />}
+                    {isMain || <FontAwesomeIcon className="Nav-button-item" icon={faArrowLeft} />}
                 </li>
-                <li>BF</li>
+                <li>{msg}</li>
                 <li>&nbsp;&nbsp;&nbsp;</li>
             </ul>
 
