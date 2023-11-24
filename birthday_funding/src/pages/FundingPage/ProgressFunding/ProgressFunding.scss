@@ -1,0 +1,22 @@
+@import '../../../styles/color.scss';
+@import '../../../styles/utils.scss';
+.funding-container {
+    margin-bottom: 50px;
+    margin-top: 20px;
+    .funding-img {
+        height: 250px;
+    }
+    .funding-title {
+        margin-top: 20px;
+    }
+    .funding-user-name {
+        margin-top: 20px;
+    }
+    .funding-content {
+        margin-top: 20px;
+    }
+}
+
+.margin {
+    margin-bottom: 10px;
+}
