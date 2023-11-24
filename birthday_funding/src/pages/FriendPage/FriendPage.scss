@@ -1,12 +1,5 @@
 @import '../../styles/color.scss';
 @import '../../styles/utils.scss';
-.friend-title {
-    float: left;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-bottom: 10px;
-}
-
 .ul-funding-friend {
     margin-left: 20px;
     margin-top: 60px;
@@ -40,7 +33,6 @@
             height: 90px;
             border-radius: 90px;
         }
-        .friend-name {}
         &:last-child {
             border: none;
         }

@@ -1,0 +1,29 @@
+@import '../../styles/color.scss';
+@import '../../styles/utils.scss';
+.mypage-container {
+    background-color: white;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 10px;
+    .mypage-user {
+        img {
+            width: 100px;
+            border-radius: 100px;
+        }
+        .mypage-birthday {
+            margin-top: 5px;
+            font-size: 13px;
+            margin-bottom: 20px;
+        }
+    }
+    .mypage-point {
+        border: 1px solid $color-gray-01;
+        border-radius: 10px;
+        height: 70%;
+        width: 150px;
+        .mypage-pointname {
+            margin-top: 40px;
+        }
+    }
+}

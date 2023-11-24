@@ -1,0 +1,26 @@
+@import '../../styles/color.scss';
+@import '../../styles/utils.scss';
+.point-container {
+    margin-top: 20px;
+    .point-name {
+        margin-bottom: 10px;
+    }
+}
+
+.ul-category {
+    margin-top: 55px;
+    margin-left: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 70px);
+    .category-button {
+        border-radius: 10px;
+        height: 25px;
+        width: 60px;
+    }
+}
+
+.ul-product {
+    margin-top: 55px;
+    display: grid;
+    grid-template-columns: repeat(2, 155px);
+}

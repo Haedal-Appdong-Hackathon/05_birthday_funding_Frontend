@@ -32,3 +32,19 @@
     align-items: center;
     text-align: center;
 }
+
+.title {
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.pink-button {
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: $color-pink-01;
+    color: white;
+    border: 1px solid $color-gray-01;
+}

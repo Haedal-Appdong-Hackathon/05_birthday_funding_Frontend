@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Error from './pages/Error/Error';
 import IntroPage from './pages/IntroPage/IntroPage';
 import FundingPage from './pages/FundingPage/FundingPage';
+import ProgressFunding from './pages/FundingPage/ProgressFunding/ProgressFunding';
 import MyPage from './pages/MyPage/MyPage';
 import LoginPage from './pages/LoginPage/LoginPage';
 import RegisterPage from './pages/LoginPage/RegisterPage/RegisterPage';
@@ -20,6 +21,7 @@ export default function App() {
                     <Route path="/login" element={<LoginPage />} />
                     <Route path="/register" element={<RegisterPage />} />
                     <Route path="/funding" element={<FundingPage />} />
+                    <Route path="/fundingdetail" element={<ProgressFunding />} />
                     <Route path="/mypage" element={<MyPage />} />
                     <Route path="/navigate" element={<NavigatePage />} />
                     <Route path="/Friends" element={<FriendPage />} />
