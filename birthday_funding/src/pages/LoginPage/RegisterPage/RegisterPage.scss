@@ -1,0 +1,55 @@
+@import '../../../styles/color.scss';
+@import '../../../styles/utils.scss';
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 10rem;
+
+    max-width: 380px;
+
+    margin: auto;
+
+    .register-container {
+        margin-top: 1rem;
+        padding: 10px;
+        background-color: white;
+
+        border-radius: 6px;
+
+        box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+
+        .title {
+            margin-top: 0.25rem;
+            font-size: 20px;
+
+            text-align: center;
+        }
+
+        .form-container {
+            .input-container {
+                margin-top: 0.5rem;
+
+                display: flex;
+                flex-direction: column;
+
+                .input-title {
+                    margin-bottom: 0.5rem;
+                    font-size: 14px;
+                }
+
+                .input {
+                    padding: 0.5rem;
+
+                    border: 1px solid #e5e5e5;
+                    border-radius: 4px;
+
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
