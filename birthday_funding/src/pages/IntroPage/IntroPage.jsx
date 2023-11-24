@@ -1,11 +1,12 @@
 import { Canvas } from '@react-three/fiber';
 import Header from '../../Layout/Header';
 // import Footer from '../../Layout/footer';
-import { Html, OrbitControls } from '@react-three/drei';
+// import { Html, OrbitControls } from '@react-three/drei';
 import './IntroPage.scss';
 import Gift from './Gift';
 import Footer from '../../Layout/Footer';
 
+/* eslint-disable */
 const IntroPage = () => {
     return (
         <>
@@ -22,10 +23,9 @@ const IntroPage = () => {
                     <br />
                     가격이 부담되어 망설였던 선물도 <br />
                     펀딩을 통해 선물로 받아보세요! <br />
-
                 </p>
             </div>
-            <Footer msg={'로그인하고 시작하기'}/>
+            <Footer msg={'로그인하고 시작하기'} />
         </>
     );
 };
