@@ -11,6 +11,7 @@ import StorePage from './pages/StorePage/StorePage';
 import NavigatePage from './pages/NavigatePage/NavigatePage';
 import ExchangePage from './pages/ExchangePage/ExchangePage';
 import FriendPage from './pages/FriendPage/FriendPage';
+import MakeFunding from './pages/FundingPage/MakeFunding/MakeFunding';
 
 export default function App() {
     return (
@@ -21,6 +22,7 @@ export default function App() {
                     <Route path="/login" element={<LoginPage />} />
                     <Route path="/register" element={<RegisterPage />} />
                     <Route path="/funding" element={<FundingPage />} />
+                    <Route path="/funding/makefunding" element={<MakeFunding />} />
                     <Route path="/fundingdetail" element={<ProgressFunding />} />
                     <Route path="/mypage" element={<MyPage />} />
                     <Route path="/navigate" element={<NavigatePage />} />
