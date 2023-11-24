@@ -5,7 +5,7 @@ import './IntroPage.scss';
 const IntroPage = () => {
     return (
         <>
-            <Header />
+            <Header msg={'BF'} isMain={true} />
             <div className="intro-container">
                 <img src="../../../public/images/intro/gift-box.png" alt="cake" />
                 <text>
