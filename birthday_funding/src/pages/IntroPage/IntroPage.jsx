@@ -8,12 +8,13 @@ import Gift from './Gift';
 const IntroPage = () => {
     return (
         <>
-            <Header />
+            <Header msg={'BF'} isMain={true} />
             <Canvas>
                 <ambientLight intensity={10} />
                 <Gift />
             </Canvas>
-            <div className="intro-container">    
+            <div className="intro-container">
+                <img src="../../../public/images/intro/gift-box.png" alt="cake" />
                 <p>
                     Birthday Funding은 <br />
                     축하하는 마음을 모아 <br />
