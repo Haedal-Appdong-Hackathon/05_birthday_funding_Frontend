@@ -21,7 +21,7 @@
 ## 노션페이지
 > [해달X앱동 해커톤 5팀 Just - Birthday-funding](https://dobbyreact.notion.site/Just-Birthday-funding-437882e49cbf4e01bc304081d4df1790?pvs=4)
 ## 배포링크
-> 백엔드 서버 : 
+> 백엔드 서버 : http://52.79.95.147:8080
 > <br>
 > 프론트엔드 서버 : 
 <br>
