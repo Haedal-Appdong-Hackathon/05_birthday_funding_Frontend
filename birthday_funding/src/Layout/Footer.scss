@@ -1,0 +1,13 @@
+@import '../styles/color.scss';
+@import '../styles/utils.scss';
+// @import '../styles/font.scss';
+
+.Footer-container {
+    max-width: 380px;
+
+    font-size: 1.5rem;
+
+    color: $color-white;
+    padding: 1rem;
+    background-color: $color-pink-01;
+}
