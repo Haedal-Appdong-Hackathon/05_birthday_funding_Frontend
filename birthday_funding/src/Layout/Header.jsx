@@ -2,9 +2,10 @@ import { faBars, faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Header.scss';
 
+/* eslint-disable */
 const Header = (props) => {
-    const {msg, isMain} = props
-    console.log(msg, isMain)
+    const { msg, isMain } = props;
+    console.log(msg, isMain);
     return (
         <>
             <ul className="Header-container">
