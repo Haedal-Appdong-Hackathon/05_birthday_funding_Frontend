@@ -1,0 +1,20 @@
+@import '../styles/color.scss';
+@import '../styles/utils.scss';
+.link-container {
+    border-bottom: 1px solid $color-gray-02;
+    height: 50px;
+    width: 90%;
+    .link-name {
+        margin-top: 15px;
+        margin-left: 20px;
+        float: left;
+    }
+    .link-icon {
+        margin-top: 15px;
+        margin-right: 20px;
+        float: right;
+    }
+    &:last-child {
+        border: none;
+    }
+}

@@ -1,0 +1,41 @@
+@import '../../styles/color.scss';
+@import '../../styles/utils.scss';
+
+.ul-funding-friend {
+    margin-left: 20px;
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(8, 155px);
+    .funding-friend-container {
+        width: 150px;
+        border-radius: 30px;
+        background-color: white;
+        border: 1px solid $color-gray-01;
+        .friend-img {
+            width: 140px;
+            height: 140px;
+            border-radius: 140px;
+        }
+        .friend-name {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.ul-friend {
+    margin-left: 20px;
+    margin-top: 55px;
+    .friend-container {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid $color-gray-01;
+        .friend-img {
+            width: 90px;
+            height: 90px;
+            border-radius: 90px;
+        }
+        &:last-child {
+            border: none;
+        }
+    }
+}

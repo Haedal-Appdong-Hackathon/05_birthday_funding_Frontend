@@ -4,7 +4,7 @@ import './LoginPage.scss';
 const LoginPage = () => {
     return (
         <>
-            <Header />
+            <Header msg={'로그인'} isMain={false} />
             <div className="login-container">
                 <img className="cake-item" src="../../../public/images/login/cake-3D.png" alt="cake" />
                 <p>

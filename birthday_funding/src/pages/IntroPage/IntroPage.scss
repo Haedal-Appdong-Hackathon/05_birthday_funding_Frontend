@@ -1,23 +1,26 @@
 @import '../../styles/color.scss';
 @import '../../styles/utils.scss';
 
+Canvas {
+    margin-top: 100px;
+}
+
+
 .intro-container {
     /* 높이 임의로 설정 -> 추후 수정해야함 */
     height: 80vh;
-
     img {
         margin-left: 2rem;
-
         max-width: 80%;
-
         height: auto;
         display: block;
     }
-
-    p {
+  
+    text {
         line-height: 2rem;
     }
 }
+
 .Footer-container {
     /* 폰트설정 */
     font-size: 1.2rem;
@@ -25,8 +28,6 @@
     color: $color-white;
 
     margin-top: 1rem;
-
     padding: 1rem;
-
     background-color: $color-pink-01;
 }

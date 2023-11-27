@@ -1,0 +1,14 @@
+@import '../styles/color.scss';
+@import '../styles/utils.scss';
+.product-container {
+    border: 1px solid $color-gray-01;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    img {
+        width: 100px;
+    }
+    .gray {
+        color: gray;
+    }
+}

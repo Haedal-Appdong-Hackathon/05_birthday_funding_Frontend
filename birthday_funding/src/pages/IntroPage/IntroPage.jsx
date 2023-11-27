@@ -1,13 +1,21 @@
+import { Canvas } from '@react-three/fiber';
 import Header from '../../Layout/Header';
 // import Footer from '../../Layout/footer';
+// import { Html, OrbitControls } from '@react-three/drei';
 import './IntroPage.scss';
+import Gift from './Gift';
+import Footer from '../../Layout/Footer';
 
+/* eslint-disable */
 const IntroPage = () => {
     return (
         <>
-            <Header />
+            <Header msg={'BF'} isMain={true} />
+            <Canvas>
+                <ambientLight intensity={10} />
+                <Gift />
+            </Canvas>
             <div className="intro-container">
-                <img src="../../../public/images/intro/gift-box.png" alt="cake" />
                 <p>
                     Birthday Funding은 <br />
                     축하하는 마음을 모아 <br />
@@ -17,7 +25,7 @@ const IntroPage = () => {
                     펀딩을 통해 선물로 받아보세요! <br />
                 </p>
             </div>
-            <div className="Footer-container">로그인하고 시작하기</div>
+            <Footer msg={'로그인하고 시작하기'} />
         </>
     );
 };
